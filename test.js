@@ -20,3 +20,9 @@ test('Defaults to ES5', function (t) {
   t.equal(isESVersion('const a = 0'), false)
   t.end()
 })
+
+test('Custom parser', function (t) {
+  t.equal(isESVersion('#!/usr/bin/env node\nreturn "whatever"', 5), false)
+  t.equal(isESVersion('#!/usr/bin/env node\nreturn "whatever"', 5, { parser: require('acorn-node') }), true)
+  t.end()
+})

@@ -32,9 +32,15 @@ isEsVersion('var a = 10', 5) // true
 
 ## API
 
-### `isEsVersion(src, version=5)`
+### `isEsVersion(src, version=5, opts={})`
 
 Check if `src` is a source code string that is supported by the EcmaScript version `version`. The default version is 5. Returns true if the syntax is supported by the given version; false if not.
+
+Set `opts.parser` to use a custom parser module, such as [acorn-node](https://github.com/browserify/acorn-node).
+
+```js
+isEsVersion('#!/usr/bin/env node\nrequire("./lib/cli")', 5, { parser: require('acorn-node') })
+```
 
 ## License
 
