@@ -1,7 +1,7 @@
 {
   "name": "is-es-version",
   "description": "check if some source code uses syntax supported by an ES version",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
     "url": "https://github.com/goto-bus-stop/is-es-version/issues"
