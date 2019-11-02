@@ -7,7 +7,7 @@
     "url": "https://github.com/goto-bus-stop/is-es-version/issues"
   },
   "dependencies": {
-    "acorn": "^6.2.0"
+    "acorn": "^7.1.0"
   },
   "devDependencies": {
     "acorn-node": "^1.7.0",
