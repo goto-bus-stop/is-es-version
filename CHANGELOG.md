@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2.0 / 2019-11-02
+
+ * Update acorn to v7.
+ * Add CLI.
+
 ## 1.1.0 / 2019-07-11
 
  * Update acorn to v6.
